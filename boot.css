@@ -1,0 +1,38 @@
+.nave {
+  height: 50px;
+}
+
+.maino {
+  height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .maino::before {
+    content: "12 Columnas";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .maino::before {
+    content: "8 Columnas";
+  }
+}
+
+.asido {
+  height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .asido::before {
+    content: "12 Columnas";
+  }
+}
+@media screen and (min-width: 768px) {
+  .asido::before {
+    content: "4 Columnas";
+  }
+}
+
+.foot {
+  height: 50px;
+}
